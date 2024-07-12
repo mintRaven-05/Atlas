@@ -9,6 +9,7 @@ echo "        \/                   \/      \/ "
 echo ""
 echo "Copyright (C) 2024, Debjeet Banerjee"
 echo ""
+chmod +x uninstall.sh
 echo "preparing files for installation"
 sleep .5
 make all
