@@ -26,6 +26,7 @@ Run the `install.sh` script to install the tool.
 
 ```bash
 cd Atlas
+chmod +x install.sh
 ./install.sh
 ```
 
