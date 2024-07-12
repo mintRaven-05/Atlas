@@ -11,7 +11,9 @@ Atlas is a robust ELF parser implemented in C programming language. It is a comp
 
  >[!IMPORTANT]
  >This tool is only supported by Linux-based OS and only for 64-bit architecture. This project is still under development and undergoing heavy modifications. You can put this project to watch list if you wish to use this.
-
+ 
+ >[!NOTE]
+>This tool is only available for parsing 64-bit binaries. Soon the 32-bit elf parser will be released.
 ## Installation
 
 Copy this repository
