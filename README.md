@@ -47,6 +47,12 @@ Further usage is explained in the help screen of the tool.
 
 ## Demo Screenshot
 
+<p align=center>
+  <img src = "https://github.com/user-attachments/assets/d3d8ef89-9a81-4530-8a22-68d5c8776096">
+</p>
+
+![240712_16h17m53s_screenshot](https://github.com/user-attachments/assets/12f00ae7-ce14-4d03-a59c-87ca987ea11f)
+
 ## Uninstallation
 
 Once installed it make a copy of the repository in the home directory inside a hidden folder. The folder is named `.Atlas`. Now you need to navigate into that folder and run the uninstaller. Run the following commands
