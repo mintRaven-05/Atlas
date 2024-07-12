@@ -20,7 +20,7 @@ Copy this repository
 git clone https://github.com/mintRaven-05/Atlas.git
 ```
 
-Run the `install.sh` script to install the tool. Run the following commands
+Run the `install.sh` script to install the tool.
 
 ```bash
 cd Atlas
