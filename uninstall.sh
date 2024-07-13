@@ -23,3 +23,8 @@ if [ -L "/usr/bin/atlas" ]; then
 else
   echo "could not locate /usr/bin/atlas"
 fi
+
+echo "Thank you for trying out Atlas."
+echo "If you have any suggestions or found out any bugs, you can report it"
+echo "over the issues page."
+echo "Visit & follow https://www.github.com/mintRaven-05/Atlas for more projects."
