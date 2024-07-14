@@ -8,7 +8,7 @@ void ViewVersionInfo(){
     printf( "\\____|__  / |__|  |____/(____  //____  >\n");
     printf( "        \\/                   \\/      \\/ \n");
     printf("\n");
-    printf("Atlas (github.com/mintRaven-05) v0.0.2\n");
+    printf("Atlas (github.com/mintRaven-05) v0.1.2\n");
     printf("Copyright (C) 2024 Debjeet Banerjee\n");
     printf("This program is free software; you may redistribute it\n");
     printf("under the terms of the BSD 3-Clause License\n");
