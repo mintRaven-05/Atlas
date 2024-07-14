@@ -12,6 +12,14 @@ echo ""
 chmod +x uninstall.sh
 chmod +x update.sh
 
+if [ -d "/usr/bin/curl" ]; then
+    echo ""
+else
+    echo "install curl using your package manager after installation"
+    echo "The update feature will not work if curl is not installed"
+
+sleep 2.5
+
 echo "preparing files for installation"
 if [ -d "$HOME/.local/atlas"  ];then
     cp update.sh $HOME/.local/atlas
