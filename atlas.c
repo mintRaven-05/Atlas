@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
             else if((strcmp(argv[1], "-v") == 0) || (strcmp(argv[1], "--version") == 0)){
                 ViewVersionInfo();
             }
-            else if((strcmp(argv[1], "-u") == 0 || (strcmp(argv[1], "--update") == 0)){
+            else if((strcmp(argv[1], "-u") == 0) || (strcmp(argv[1], "--update") == 0)){
                 system("$HOME/.local/atlas/update.sh");
             }
             else{
