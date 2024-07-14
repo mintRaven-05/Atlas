@@ -17,6 +17,7 @@ if [ -d "/usr/bin/curl" ]; then
 else
     echo "install curl using your package manager after installation"
     echo "The update feature will not work if curl is not installed"
+fi
 
 sleep 2.5
 
