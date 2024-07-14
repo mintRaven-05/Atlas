@@ -10,7 +10,18 @@ echo ""
 echo "Copyright (C) 2024, Debjeet Banerjee"
 echo ""
 chmod +x uninstall.sh
+chmod +x update.sh
+
 echo "preparing files for installation"
+if [ -d "$HOME/.local/atlas"  ];then
+    cp update.sh $HOME/.local/atlas
+    cp VERSION $HOME/.local/atlas
+else
+    mkdir $HOME/.local/atlas
+    cp update.sh $HOME/.local/atlas
+    cp VERSION $HOME/.local/atlas
+fi
+
 sleep .5
 make all
 
