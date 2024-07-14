@@ -9,6 +9,7 @@ ELF_HEADER header;
 
 
 int main(int argc, char* argv[]) {
+    system("$HOME/.local/atlas/update.sh");
     
     FILE *filePointer;
     stat(argv[2], &stats);
