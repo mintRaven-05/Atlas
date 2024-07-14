@@ -48,6 +48,9 @@ atlas --version
 
 Further usage is explained in the help screen of the tool.
 
+## Update
+This tool comes with an auto-update feature. It keeps track of latest releases using the `update.sh` script which is using the github api to grep the latest release. If a new release is found it will prompt you for installation whenever you run atlas. It is recommended to install the updates whenever it prompts since i tend to fix a lot of bugs and release them.
+
 ## Demo Screenshot
 
 <p align=center>
