@@ -24,6 +24,6 @@ void ViewHelpScreen(){
     printf("|  -p, --pgm     |  Prints information related to the program headers section    |\n");
     printf("|  -H, --help    |  Prints the help screen                                       |\n");
     printf("|  -v, --version |  Prints current version information of the tool               |\n");
-    printf("|  -u, --update |  performs an update for the tool                               |\n");
+    printf("|  -u, --update  |  performs an update for the tool                              |\n");
     printf(" --------------------------------------------------------------------------------\n");
 }
