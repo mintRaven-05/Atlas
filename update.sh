@@ -1,11 +1,9 @@
 #!/bin/bash
 
 if [[ "$(grep "VERSION" $HOME/.local/atlas/VERSION | cut -c 10-)" == "$(curl -s https://api.github.com/repos/mintRaven-05/Atlas/releases/latest | grep tag_name | cut -c 16-21)" ]]; then
-    echo ""
+    echo "no updates released !"
 else
     echo "A new version of atlas is released"
-    echo "Current version: $(grep "VERSION" $HOME/.local/atlas/VERSION | cut -c 10-)"
-    echo "Latest release:  $(curl -s https://api.github.com/repos/mintRaven-05/Atlas/releases/latest | grep tag_name | cut -c 16-21)"
     read -p "Do you want to install the update [y/N]: " choice
     choice=${choice,,}
     if [[ $choice == "" || $choice == "n" || $choice == "no" ]]; then
