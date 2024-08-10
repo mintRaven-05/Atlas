@@ -1,18 +1,12 @@
 #include "stdout_help.h"
 
 void ViewVersionInfo(){
-    printf( "   _____     __   .__                   \n");
-    printf( "  /  _  \\  _/  |_ |  |  _____     ______\n");
-    printf( " /  /_\\  \\ \\   __\\|  |  \\__  \\   /  ___/\n");
-    printf( "/    |    \\ |  |  |  |__ / __ \\_ \\___ \\ \n");
-    printf( "\\____|__  / |__|  |____/(____  //____  >\n");
-    printf( "        \\/                   \\/      \\/ \n");
-    printf("\n");
-    printf("Atlas (github.com/mintRaven-05) v0.2.0\n");
-    printf("Copyright (C) 2024 Debjeet Banerjee\n");
-    printf("This program is free software; you may redistribute it\n");
-    printf("under the terms of the BSD 3-Clause License\n");
-    printf("THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND\n");
+    printf("%s by %s v%s\n", _TOOL_, _AUTHOR_, _VERSION_);
+    printf("%s\n", _COPYRIGHT_);
+    printf("This program is free software; you may redistribute it under the terms\n");
+    printf("and condition of the %s License\n", _LICENSE_);
+    printf("Written by %s, dated: %s\n", _AUTHOR_, _DATE_);
+    printf("Visit %s for more projects\n", _WEBSITE_);
 }
 
 void ViewHelpScreen(){
