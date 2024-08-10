@@ -9,7 +9,7 @@
 #define _LICENSE_   "BSD 3-Clause"
 #define _COPYRIGHT_ "Copyright (C) 2024, Debjeet Banerjee"
 #define _VERSION_   "0.2.1"
-#define _WEBSITE_   "https://github.com/mintRaven-05
+#define _WEBSITE_   "https://github.com/mintRaven-05"
 
 void ViewVersionInfo();
 void ViewHelpScreen();
