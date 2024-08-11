@@ -12,7 +12,7 @@ echo ""
 chmod +x uninstall.sh
 chmod +x update.sh
 
-if [ -d "/usr/bin/curl" ]; then
+if [ -f "/usr/bin/curl" ]; then
     echo ""
 else
     echo "install curl using your package manager after installation"
