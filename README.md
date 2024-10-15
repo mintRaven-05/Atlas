@@ -62,10 +62,10 @@ atlas -u
 ## Demo Screenshot
 
 <p align=center>
-  <img src = "https://github.com/user-attachments/assets/d3d8ef89-9a81-4530-8a22-68d5c8776096">
+  <img src = "https://github.com/user-attachments/assets/ce6cbbca-da95-41a1-a52c-67b4597f5b8c">
 </p>
 
-![240712_16h17m53s_screenshot](https://github.com/user-attachments/assets/12f00ae7-ce14-4d03-a59c-87ca987ea11f)
+![241015_20h54m35s_screenshot](https://github.com/user-attachments/assets/1c4530ae-40d7-4f33-adc2-74468d8bdc76)
 
 ## Uninstallation
 
